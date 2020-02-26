@@ -1,0 +1,39 @@
+{
+  "name": "graphql-node",
+  "version": "1.0.0",
+  "description": "GraphQL API",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaspermroz/graphql-node.git"
+  },
+  "keywords": [
+    "graphql",
+    "node"
+  ],
+  "author": "Kasper Mróz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaspermroz/graphql-node/issues"
+  },
+  "homepage": "https://github.com/kaspermroz/graphql-node#readme",
+  "dependencies": {
+    "apollo-datasource-rest": "^0.6.5",
+    "apollo-server-express": "^2.9.6",
+    "express": "^4.17.1",
+    "graphql": "^14.5.8",
+    "graphql-tools": "^4.0.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.3",
+    "dotenv": "^8.1.0",
+    "nodemon": "^1.19.3"
+  }
+}
